@@ -21,22 +21,18 @@ function criaSegundaFrase(num1, num2) {
 
   let resultado10 = "menor";
   let resultado20 = "menor";
-  const compra10 = soma >= 10;
-  const compra20 = soma <= 20;
+  const compra10 = soma > 10;
+  const compra20 = soma > 20;
 
   if (compra10) {
     resultado10 = "maior";
-  } else if (compra20) {
-    resultado20 = "igual";
   }
 
   if (compra20) {
     resultado20 = "maior";
-  } else if (compra20) {
-    resultado20 = "igual";
   }
 
   return `Sua soma é ${soma}, que é ${resultado10} que 10 e ${resultado20} que 20.`;
 }
 
-console.log(comparaNumeros(10, 10));
+console.log(comparaNumeros(8, 9)); //altere os números para realizar a comparação!!//
