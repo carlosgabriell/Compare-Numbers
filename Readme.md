@@ -1,3 +1,3 @@
-## Projeto ainda em desenvolvimento... 🛠️
+## Projeto Javascript | DIO
 
-### (Procurar uma solução para a o terminal retornar o resultado quando a soma for igual a 10 || 20).
+### Objetivo: Comparar números e descobrir se eles são iguais, realizar a soma dos mesmos e retornar com o resultado e se ele é maior que 10 e menor que 20.
